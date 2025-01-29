@@ -4,7 +4,8 @@ import { user as _user } from '../_prisma/client';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
 
-async function signUp(email, password) {
+export async function signUp(email, password) {
+  // ✅ Named export
   if (!email.endsWith('@ucdavis.edu')) {
     throw new Error('Please use your UC Davis email address.');
   }
@@ -19,7 +20,8 @@ async function signUp(email, password) {
   return { token, user };
 }
 
-async function signIn(email, password) {
+export async function signIn(email, password) {
+  // ✅ Named export
   const user = await _user.findUnique({ where: { email } });
   if (!user) {
     throw new Error('Invalid email or password.');
@@ -34,7 +36,3 @@ async function signIn(email, password) {
 
   return { token, user };
 }
-
-// ✅ Now adding the default export
-const Users = { signUp, signIn };
-export default Users;
