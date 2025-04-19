@@ -1,19 +1,22 @@
-import Users from '../_services/Users'; // ✅ Import the correct way
+import { Session } from 'next-auth';
 
-interface SignInArgs {
-  email: string;
-  password: string;
-}
+export const UserResolvers = {
+  Query: {
+    getCurrentUser: async (
+      _parent: unknown,
+      _args: unknown,
+      context: { session?: Session | null }
+    ) => {
+      if (!context.session || !context.session.user) {
+        throw new Error('Unauthorized');
+      }
 
-const resolvers = {
-  Mutation: {
-    signUp: async (_: unknown, args: SignInArgs) => {
-      return await Users.signUp(args.email, args.password);
-    },
-    signIn: async (_: unknown, args: SignInArgs) => {
-      return await Users.signIn(args.email, args.password);
+      return {
+        email: context.session.user.email,
+        name: context.session.user.name,
+      };
     },
   },
 };
 
-export default resolvers;
+export default UserResolvers;

@@ -11,6 +11,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "typeRoots": ["./types", "./node_modules/@types"],
     "jsx": "preserve",
     "incremental": true,
     "noImplicitAny": true,
@@ -20,16 +21,16 @@
       }
     ],
     "paths": {
-    "@globals/*": ["./app/(pages)/_globals/*"],
-    "@components/*": ["./app/(pages)/_components/*"],
-    "@data/*": ["./app/(pages)/_data/*"],
-    "@hooks/*": ["./app/(pages)/_globals/_hooks/*"],
-    "@contexts/*": ["./app/(pages)/_contexts/*"],
-    "@utils/*": ["./app/(pages)/_globals/_utils/*"], 
-    "@actions/*": ["./app/(api)/_actions/*"],
-    "@datalib/*": ["./app/(api)/_datalib/*"],
+      "@globals/*": ["./app/(pages)/_globals/*"],
+      "@components/*": ["./app/(pages)/_components/*"],
+      "@data/*": ["./app/(pages)/_data/*"],
+      "@hooks/*": ["./app/(pages)/_globals/_hooks/*"],
+      "@contexts/*": ["./app/(pages)/_contexts/*"],
+      "@utils/*": ["./app/(pages)/_globals/_utils/*"], 
+      "@actions/*": ["./app/(api)/_actions/*"],
+      "@datalib/*": ["./app/(api)/_datalib/*"]
     }
   },
-  "include": ["nextEnv.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["types/**/*.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
