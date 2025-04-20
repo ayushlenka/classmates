@@ -1,0 +1,100 @@
+.coursesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+
+  //   border: solid rgb(127, 32, 136);
+
+  .courses {
+    display: flex;
+    flex-direction: column;
+
+    .courseQuarter {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+
+      .quarter {
+        width: auto;
+        padding: 8px 20px;
+        color: #fff;
+        font-family: Archivo;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+        border-radius: 11000px;
+        border: 1px solid #9747ff;
+        background: #262626;
+      }
+
+      .courseItem {
+        display: flex;
+        width: 100%;
+        gap: 8px;
+
+        // border: solid white;
+
+        .courseName {
+          width: 80%;
+          padding: 20px;
+          border-radius: 5px;
+          border: 1px solid #7c7c7c;
+          background: #282828;
+          color: #fff;
+          font-family: Archivo;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+        .courseUnit {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 20%;
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px solid #7c7c7c;
+          background: #282828;
+          color: #fff;
+          text-align: center;
+          font-family: Archivo;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+
+      .total {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .courseTotal {
+          p {
+            color: #fff;
+            font-family: Archivo;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: normal;
+          }
+        }
+
+        .unitTotal {
+          color: #fff;
+          font-family: Archivo;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 200;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}

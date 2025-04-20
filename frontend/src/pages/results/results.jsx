@@ -1,13 +1,13 @@
-import styles from "./transcripts.module.scss";
+import styles from "./results.module.scss";
 import Header from "../../components/header/header.jsx";
-import Body from "../../components/transcript-body/tbody.jsx";
+import Transcript from "../../components/transcript-output/transcript.jsx";
 import Footer from "../../components/footer/footer.jsx";
 
-export default function Transcripts() {
+export default function Results() {
   return (
     <div className={styles.page}>
       <Header />
-      <Body />
+      <Transcript />
       <Footer />
     </div>
   );

@@ -1,5 +1,5 @@
 import styles from "./tbody.module.scss";
-import Card from "./card/card.jsx";
+import Card from "../card/card.jsx";
 
 const data = [
   {

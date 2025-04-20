@@ -1,0 +1,29 @@
+.coursesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 1238px;
+
+  //   border: solid rgb(232, 24, 24);
+
+  .courseYear {
+    h4 {
+      margin-top: 30px;
+      color: #fff;
+      font-family: Archivo;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+  }
+
+  .courseList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+  }
+}

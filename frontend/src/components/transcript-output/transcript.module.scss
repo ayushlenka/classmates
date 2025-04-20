@@ -1,0 +1,137 @@
+.transcriptContainer {
+  .transcriptTitle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    margin-left: 100px;
+    gap: 30px;
+    width: 1030px;
+
+    h1 {
+      color: #fff;
+      font-family: Archivo;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 100;
+      line-height: normal;
+    }
+
+    .transcriptDescription {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      gap: 15px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.1);
+
+      p {
+        color: #fff;
+        font-family: Archivo;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+      }
+
+      span {
+        color: #bc55ec;
+        font-family: Archivo;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .transcriptContent {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+
+    margin-top: 80px;
+    margin-left: 100px;
+
+    .transcriptContentTitle {
+      h2 {
+        color: #fff;
+        font-family: Archivo;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+      }
+    }
+
+    .recommendedTranscript {
+      margin-top: 124px;
+
+      h2 {
+        color: #fff;
+        font-family: Archivo;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+      }
+    }
+
+    .save {
+      margin-top: 120px;
+      width: 1030px;
+
+      p {
+        color: #fff;
+        font-family: Archivo;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+      }
+
+      .btns {
+        display: flex;
+        align-items: center;
+        margin-top: 12px;
+        gap: 18px;
+
+        p {
+          width: 60%;
+          padding: 20px;
+          color: #fff;
+          font-family: Archivo;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 200;
+          line-height: normal;
+          border-radius: 5px;
+          border: 1px solid #7c7c7c;
+          background: #282828;
+        }
+
+        .saveBtn {
+          padding: 10px 20px;
+          border-radius: 1000px;
+          background: rgba(211, 211, 211, 0.34);
+          box-shadow: 0px 0px 20px 0px rgba(232, 184, 255, 0.34);
+          color: #fff;
+          font-family: Archivo;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+        .downloadBtn {
+          padding: 10px 20px;
+          border-radius: 1000px;
+          background: rgba(188, 85, 236, 0.35);
+          box-shadow: 0px 0px 20px 0px rgba(232, 184, 255, 0.34);
+          color: #fff;
+          font-family: Archivo;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
