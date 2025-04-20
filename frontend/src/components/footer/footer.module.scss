@@ -1,0 +1,22 @@
+.footerContainer {
+  margin-top: 100px;
+  width: 100%;
+  background-color: black;
+
+  .footerContent {
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    border: solid black;
+    background-color: #282828;
+    p {
+      color: #fff;
+      text-align: center;
+      font-family: Archivo;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 144.444% */
+    }
+  }
+}

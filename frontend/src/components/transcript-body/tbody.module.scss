@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #101010;
+  height: auto;
+
+  .title {
+    margin-top: 100px;
+
+    h1 {
+      color: #fff;
+      font-family: Archivo;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    width: 100%;
+
+    p {
+      color: #fff;
+      font-family: Archivo;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .cardList {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 40px;
+    }
+  }
+}

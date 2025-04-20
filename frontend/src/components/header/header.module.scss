@@ -1,0 +1,163 @@
+/* Purple: Moves from top left to bottom right */
+@keyframes purpleBounce {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 50%;
+    left: 70%;
+  }
+  50% {
+    top: 60%;
+    left: 0;
+  }
+  75% {
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+/* Yellow: Moves from top right to bottom left */
+@keyframes yellowBounce {
+  0% {
+    top: 0;
+    left: 100%;
+  }
+  25% {
+    top: 50%;
+    left: 0;
+  }
+  50% {
+    top: 40%;
+    left: 0;
+  }
+  75% {
+    top: 25%;
+    left: 70%;
+  }
+  100% {
+    top: 0;
+    left: 100%;
+  }
+}
+
+/* Blue: Moves vertically with some back-and-forth movement */
+@keyframes blueBounce {
+  0% {
+    top: 10%;
+    left: 40%;
+  }
+  25% {
+    top: 50%;
+    left: 50%;
+  }
+  50% {
+    top: 20%;
+    left: 70%;
+  }
+  75% {
+    top: 50%;
+    left: 20%;
+  }
+  100% {
+    top: 10%;
+    left: 60%;
+  }
+}
+
+.main {
+  padding-top: 40px;
+  background-color: #101010;
+
+  .circleWrapper {
+    position: absolute;
+    top: -800px;
+    height: 0px;
+    width: 80%;
+
+    border: solid white;
+
+    .circle {
+      position: absolute;
+      width: 800px;
+      height: 800px;
+      border-radius: 1033px;
+      opacity: 0.7;
+      filter: blur(200px);
+    }
+
+    /* Combine both directions using two animations */
+    .purple {
+      background: #bc55ec;
+      animation: purpleBounce 30s infinite ease-in-out;
+    }
+
+    .yellow {
+      background: #efff8f;
+      animation: yellowBounce 36s infinite ease-in-out;
+    }
+
+    .blue {
+      background: rgba(79, 226, 226, 0.8);
+      animation: blueBounce 32s infinite ease-in-out;
+    }
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    height: 100px;
+    background-color: #101010;
+    // border: solid #fff;
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      background-color: #fff;
+      border: solid #fff;
+    }
+
+    .buttons {
+      display: flex;
+      padding: 10px;
+      gap: 50px;
+      border-radius: 1000px;
+      background: rgba(255, 255, 255, 0.1);
+
+      a {
+        padding: 10px 20px;
+        color: #fff;
+        font-family: Archivo;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .transcripts {
+        border-radius: 1000px;
+
+        background: rgba(255, 255, 255, 0.2);
+      }
+    }
+
+    .logOut {
+      padding: 10px 20px;
+      border-radius: 1000px;
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
