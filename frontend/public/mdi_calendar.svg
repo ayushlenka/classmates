@@ -1,0 +1,12 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mdi:calendar-outline">
+<path id="Vector" d="M35.3333 34.5599H49.7333V48.9599H35.3333V34.5599ZM55.4933 8.63988H52.6133V2.87988H46.8533V8.63988H23.8133V2.87988H18.0533V8.63988H15.1733C12.0053 8.63988 9.41333 11.2319 9.41333 14.3999V54.7199C9.41333 57.8879 12.0053 60.4799 15.1733 60.4799H55.4933C58.6613 60.4799 61.2533 57.8879 61.2533 54.7199V14.3999C61.2533 11.2319 58.6613 8.63988 55.4933 8.63988ZM55.4933 14.3999V20.1599H15.1733V14.3999H55.4933ZM15.1733 54.7199V25.9199H55.4933V54.7199H15.1733Z" fill="url(#paint0_linear_120_24)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_120_24" x1="35.3333" y1="2.87988" x2="35.3333" y2="60.4799" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4FE2E2"/>
+<stop offset="0.495" stop-color="#EFFF8F"/>
+<stop offset="1" stop-color="#BC55EC"/>
+</linearGradient>
+</defs>
+</svg>

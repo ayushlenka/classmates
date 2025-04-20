@@ -10,7 +10,9 @@ export default function Header() {
       </div>
 
       <header className={styles.header}>
-        <a href="#" className={styles.logo}></a>
+        <a href="/" className={styles.logo}>
+          <img src="logo.png" alt="" />
+        </a>
 
         <section className={styles.buttons}>
           <a href="#" className={styles.recommender}>

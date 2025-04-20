@@ -1,0 +1,12 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="lucide:lightbulb">
+<path id="Vector" d="M43.3062 40.3203C43.8822 37.4403 45.3222 35.4243 47.6262 33.1203C50.5062 30.5283 51.9462 26.7843 51.9462 23.0403C51.9462 18.4573 50.1257 14.0621 46.885 10.8214C43.6444 7.58082 39.2492 5.76025 34.6662 5.76025C30.0833 5.76025 25.6881 7.58082 22.4474 10.8214C19.2068 14.0621 17.3862 18.4573 17.3862 23.0403C17.3862 25.9203 17.9622 29.3763 21.7062 33.1203C23.7222 35.1363 25.4502 37.4403 26.0262 40.3203M26.0262 51.8403H43.3062M28.9062 63.3603H40.4262" stroke="url(#paint0_linear_120_10)" stroke-width="5.76" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_120_10" x1="34.6662" y1="5.76025" x2="34.6662" y2="63.3603" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4FE2E2"/>
+<stop offset="0.495" stop-color="#EFFF8F"/>
+<stop offset="1" stop-color="#BC55EC"/>
+</linearGradient>
+</defs>
+</svg>

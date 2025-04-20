@@ -1,0 +1,20 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="lucide:graduation-cap">
+<g id="Group">
+<path id="Vector" d="M17.72 36V46.08C17.72 48.3715 19.5405 50.5691 22.7812 52.1894C26.0218 53.8097 30.417 54.72 35 54.72C39.5829 54.72 43.9781 53.8097 47.2188 52.1894C50.4594 50.5691 52.28 48.3715 52.28 46.08V36" stroke="url(#paint0_linear_120_16)" stroke-width="5.76" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M63.8005 28.8V46.08M62.1301 31.4553C62.6456 31.2279 63.0832 30.8542 63.3884 30.3805C63.6937 29.9068 63.8533 29.354 63.8475 28.7906C63.8417 28.2271 63.6707 27.6777 63.3557 27.2104C63.0407 26.7432 62.5955 26.3786 62.0753 26.1619L37.3909 14.9184C36.6404 14.5761 35.8253 14.3989 35.0005 14.3989C34.1757 14.3989 33.3605 14.5761 32.6101 14.9184L7.92846 26.1504C7.41573 26.3749 6.97955 26.744 6.67326 27.2125C6.36698 27.6811 6.20386 28.2287 6.20386 28.7884C6.20386 29.3482 6.36698 29.8958 6.67326 30.3643C6.97955 30.8328 7.41573 31.202 7.92846 31.4265L32.6101 42.6816C33.3605 43.0238 34.1757 43.201 35.0005 43.201C35.8253 43.201 36.6404 43.0238 37.3909 42.6816L62.1301 31.4553Z" stroke="url(#paint1_linear_120_16)" stroke-width="5.76" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_120_16" x1="35" y1="36" x2="35" y2="54.72" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4FE2E2"/>
+<stop offset="0.495" stop-color="#EFFF8F"/>
+<stop offset="1" stop-color="#BC55EC"/>
+</linearGradient>
+<linearGradient id="paint1_linear_120_16" x1="35.0257" y1="14.3989" x2="35.0257" y2="46.08" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4FE2E2"/>
+<stop offset="0.495" stop-color="#EFFF8F"/>
+<stop offset="1" stop-color="#BC55EC"/>
+</linearGradient>
+</defs>
+</svg>

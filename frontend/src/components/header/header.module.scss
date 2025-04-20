@@ -118,10 +118,10 @@
     // border: solid #fff;
 
     .logo {
-      width: 100px;
-      height: 100px;
-      background-color: #fff;
-      border: solid #fff;
+      img {
+        width: 40px;
+        height: 40px;
+      }
     }
 
     .buttons {
