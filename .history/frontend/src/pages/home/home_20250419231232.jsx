@@ -8,8 +8,7 @@ import { LuCalendarCheck } from "react-icons/lu";
 
 export default function Home() {
   useEffect(() => {
-    const circles = document.querySelectorAll(`[class*="${styles.circle}"]`)
-
+    const circles = document.querySelectorAll(`.${styles.circle}`);
 
     const setRandomPosition = (circle) => {
       const randomX = Math.random() * 100; // Random X between 0 and 100
