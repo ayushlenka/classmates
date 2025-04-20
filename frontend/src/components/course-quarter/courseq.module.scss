@@ -73,10 +73,13 @@
       .total {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         width: 100%;
+        margin-bottom: 60px;
 
         .courseTotal {
           p {
+            margin: 0;
             color: #fff;
             font-family: Archivo;
             font-size: 18px;

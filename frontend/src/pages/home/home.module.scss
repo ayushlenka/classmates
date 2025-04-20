@@ -110,6 +110,7 @@
       border-radius: 1033px;
       opacity: 0.7;
       filter: blur(200px);
+      z-index: 1;
     }
 
     /* Combine both directions using two animations */
@@ -242,12 +243,14 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding: 0;
       height: auto;
       //   border: solid #fff;
 
       .proto {
-        width: 1030px;
-        height: 837px;
+        width: 1240px;
+        height: 920px;
+        z-index: 2;
       }
     }
 
@@ -341,6 +344,7 @@
         border-radius: 1033px;
         opacity: 0.7;
         filter: blur(200px);
+        z-index: 1;
       }
 
       /* Combine both directions using two animations */
@@ -371,12 +375,14 @@
       flex-direction: column;
       align-items: center;
       margin-top: 200px;
+      z-index: 2;
 
       //   border: solid white;
 
       .startedPic {
         height: 60px;
         width: 60px;
+        z-index: 2;
       }
 
       h2 {
@@ -401,6 +407,7 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+        z-index: 2;
       }
     }
 

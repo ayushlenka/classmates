@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Krona+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
 .main {
   display: flex;
   flex-direction: column;
@@ -6,15 +8,41 @@
   height: auto;
 
   .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
     margin-top: 100px;
+    width: 80%;
+    // border: solid white;
 
     h1 {
+      margin: 0;
       color: #fff;
       font-family: Archivo;
-      font-size: 40px;
+      font-size: 48px;
       font-style: normal;
-      font-weight: 700;
+      font-weight: 100;
       line-height: normal;
+    }
+
+    .description {
+      display: flex;
+      gap: 15px;
+      padding: 20px;
+      width: 40%;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.1);
+
+      p {
+        margin: 0;
+        color: #fff;
+        font-family: Archivo;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px; /* 166.667% */
+      }
     }
   }
 
@@ -23,23 +51,17 @@
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    margin-top: 40px;
+    margin-top: 80px;
     width: 100%;
 
-    p {
-      color: #fff;
-      font-family: Archivo;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-    }
+    // border: solid white;
 
     .cardList {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
       gap: 40px;
+      width: 80%;
     }
   }
 }

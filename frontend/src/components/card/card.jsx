@@ -13,7 +13,7 @@ export default function Card({ title, year, date, link }) {
       </div>
 
       <a
-        href={link}
+        href="/result"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.linkButton}
