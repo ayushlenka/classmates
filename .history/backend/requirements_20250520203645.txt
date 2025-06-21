@@ -5,7 +5,3 @@ python-dotenv
 httpx
 sqlalchemy
 asyncpg
-itsdangerous
-python-dotenv
-authlib
-httpx

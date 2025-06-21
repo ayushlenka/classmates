@@ -1,0 +1,35 @@
+@keyframes purpleBounce {
+  0% { top: 0; left: 0; }
+  20% { top: 50%; left: 60%; }
+  40% { top: 20%; left: 80%; }
+  60% { top: 80%; left: 10%; }
+  80% { top: 10%; left: 30%; }
+  100% { top: 0; left: 0; }
+}
+
+@keyframes yellowBounce {
+  0% { top: 70%; left: 10%; }
+  25% { top: 50%; left: 70%; }
+  50% { top: 30%; left: 40%; }
+  75% { top: 60%; left: 80%; }
+  100% { top: 70%; left: 10%; }
+}
+
+@keyframes blueBounce {
+  0% { top: 10%; left: 90%; }
+  20% { top: 40%; left: 70%; }
+  40% { top: 10%; left: 40%; }
+  60% { top: 60%; left: 20%; }
+  80% { top: 30%; left: 10%; }
+  100% { top: 10%; left: 90%; }
+}
+
+.animate-purpleBounce {
+  animation: purpleBounce 14s infinite ease-in-out;
+}
+.animate-yellowBounce {
+  animation: yellowBounce 20s infinite ease-in-out;
+}
+.animate-blueBounce {
+  animation: blueBounce 16s infinite ease-in-out;
+}

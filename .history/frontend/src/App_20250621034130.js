@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
-import Home from './pages/home';
+import Home from './pages/Home';
 import Transcripts from './pages/transcripts/transcripts';
 import Results from './pages/results/results';
 import Input from './pages/input/input';
