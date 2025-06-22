@@ -11,7 +11,6 @@ const transcriptData = [
           { name: 'Intro to CS', units: '4' },
           { name: 'Calc I', units: '4' },
           { name: 'English 1', units: '3' },
-          { name: 'English 1', units: '3' },
         ], ct: 3, ut: 11 },
       { quarter: 'Winter', courses: [
           { name: 'Data Structures', units: '4' },
@@ -112,7 +111,7 @@ export default function Transcript() {
             <h4 className="text-white text-2xl font-light font-archivo uppercase tracking-wider mb-8 text-center">
               Academic Year {year}
             </h4>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 auto-rows-fr">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {quarters.map((q, idx) => (
                 <CourseQuarter key={idx} {...q} />
               ))}

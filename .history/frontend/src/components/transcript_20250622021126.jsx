@@ -112,7 +112,7 @@ export default function Transcript() {
             <h4 className="text-white text-2xl font-light font-archivo uppercase tracking-wider mb-8 text-center">
               Academic Year {year}
             </h4>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 auto-rows-fr">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {quarters.map((q, idx) => (
                 <CourseQuarter key={idx} {...q} />
               ))}

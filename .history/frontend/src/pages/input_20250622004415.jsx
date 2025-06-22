@@ -1,8 +1,8 @@
-import Generator from "../../components/generator";
+import Generator from "../components/generator";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 
-
+import Generat
 
 export default function Input() {
   return (
