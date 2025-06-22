@@ -24,7 +24,7 @@ export default function Transcripts() {
 
       <div className="grid grid-cols-2 gap-10 max-w-4xl mx-auto">
         {list.map(item => (
-          <Link to={`/transcripts/${item.id}`} key={item.id}>
+          <Link to={`/result/${item.id}`} key={item.id}>
             <div className="p-6 bg-white/5 rounded-xl hover:bg-white/10 transition">
               <h2 className="text-white text-2xl font-medium font-archivo">{item.title}</h2>
               <p className="text-white/70 mt-2">{item.semester}</p>
