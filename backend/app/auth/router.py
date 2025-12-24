@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Request, HTTPException
-from starlette.responses import RedirectResponse
+from fastapi.responses import RedirectResponse
 
 from app.auth.oauth_client import oauth
 from app.core.config import Settings
@@ -41,4 +41,4 @@ async def me(request: Request):
     user = request.session.get("user")
     if not user:
         raise HTTPException(401, "Not logged in")
-    return user
+    return user;
