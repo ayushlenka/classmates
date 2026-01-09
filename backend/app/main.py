@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.sessions import SessionMiddleware
 
 from app.core.config import Settings
-from app.auth.router import router as auth_router
+from app.api.auth import router as auth_router
 
 settings = Settings()
 app = FastAPI()

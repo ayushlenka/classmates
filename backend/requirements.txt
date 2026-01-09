@@ -3,6 +3,7 @@ uvicorn[standard]
 authlib
 python-dotenv
 httpx
+PyJWT
 sqlalchemy
 asyncpg
 itsdangerous
